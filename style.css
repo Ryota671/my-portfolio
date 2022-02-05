@@ -1,0 +1,52 @@
+body {
+  background-color: aqua;
+  background-size: cover;
+}
+
+.portfolio_profile {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.portfolio_list {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 250px;
+  width: 500px;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: rgba(135, 206, 250, 0.5);
+}
+
+.portfolio_profile_ja {
+  color: blue;
+}
+
+.header-title {
+  font-size: 20px;
+  font-family: Impact;
+}
+
+.quiz {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 250px;
+  width: 1700px;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: rgba(135, 206, 250, 0.5);
+}
+
+.hero__figure__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  width: 75%;
+  height: 75%;
+}
